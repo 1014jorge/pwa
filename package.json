@@ -1,14 +1,13 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "serve": "webpack serve",
-    "dev": "webpack-dev-server",
-    "build": "webpack --mode production",
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "build": "cd client && npm run build",
     "start": "webpack --watchAll",
-    "server": "cd server node server.js --ignore client",
     "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
