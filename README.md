@@ -60,3 +60,9 @@ THEN I should have proper build scripts for a webpack application
 
 To run the app with command prompt npm run start:dev
 
+## Links
+
+
+ Deployed App: https://pwajate.onrender.com
+
+ GitHub Repo: https://github.com/1014jorge/pwa
